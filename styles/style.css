@@ -30,3 +30,9 @@
 	  padding: 20px;
 	  border-radius: 25px
 	}
+
+   .imageBody
+   {
+	border: 2px solid red;
+    border-radius: 8px;
+   }
