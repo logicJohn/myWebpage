@@ -3,7 +3,7 @@
       background-color: #f4511e;
       z-index: 9999;
       border: 0;
-      font-size: 12px !important;
+      font-size: 14px !important;
       line-height: 1.42857143 !important;
       letter-spacing: 4px;
       border-radius: 0;
@@ -21,18 +21,44 @@
       color: #fff !important;
   }
   
-  .myGoals
+  .curriculumMe
 	{
-	  color: yellow;
-	  background-color: black;
-	  font-size: 12px;
-	  text-align: right;
-	  padding: 20px;
-	  border-radius: 25px
+		position: relative;
+		color: black;
+		background-color: green;
+		font-size: 16px;
+		text-align: center;
+		padding-top:50px;
 	}
 
    .imageBody
    {
 	border: 2px solid red;
     border-radius: 8px;
-   }
+	
+  }
+  
+	.aboutMe
+	{
+		position: relative;
+		padding-top:50px;
+		color: #fff;
+		background-color: #1E88E5;
+	}
+  
+
+	.projectStyle
+	{
+		position: relative;
+		color: black;
+		background-color: gray;
+		font-size: 12px;
+		text-align: center;
+		padding-top:50px;
+	}
+  
+  .img-responsive
+  {
+	  margin: 0 auto;
+	  
+  }
