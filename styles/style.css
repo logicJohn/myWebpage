@@ -1,3 +1,5 @@
+
+/* This will cover the navbar of each page of the index.html */
   .navbar  {
       margin-bottom: 0;
       background-color: #f4511e;
@@ -29,44 +31,174 @@
   
 
   
-  .curriculumMe
-	{
-		position: relative;
-		color: black;
-		background-color: green;
-		font-size: 16px;
-		text-align: center;
-		padding-top:50px;
-	}
+.curriculumMe
+{
+    color: black;
+    background-color: green;
+    font-size: 16px;
+    margin: 20px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left:20px;
+    padding-right:20px;
+    position: relative;
+    text-align: center;
+}
+/* This will cover the about me section of the index.html*/
 
-   .imageBody
-   {
-	border: 2px solid red;
-    border-radius: 8px;
-	
-  }
-  
-	.aboutMe
-	{
-		position: relative;
-		padding-top:50px;
-		color: #fff;
-		background-color: #1E88E5;
-	}
-  
+.aboutMeBody
+{
+    background-color: #1E88E5;
+    color: white;
+    font-size: 16px;
+    margin: 20px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left:20px;
+    padding-right:20px;
+    position: relative;
+    text-align: left-align;
+}
 
-	.projectStyle
-	{
-		position: relative;
-		color: black;
-		background-color: gray;
-		font-size: 16px;
-		text-align: center;
-		padding-top: 50px;
-	}
+.aboutMeCardTitle
+{
+    color: white; 
+    background-color: blue;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    margin-top: 10px;  
+    padding: 10px;
+}
+
+.aboutMeCardBody
+{
+    color: white; 
+    background-color: blue;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    margin-top: 10px;  
+    padding: 10px;
+}
+.aboutMeCardFooter
+{
+    color: white; 
+    background-color: blue;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    margin-top: 10px;  
+    padding: 10px;
+}
+
+/* This will cover the resume section of index.html! */
+.resumeBody
+{
+    color: black;
+    background-color: green;
+    font-size: 16px;
+    margin: 20px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left:20px;
+    padding-right:20px;
+    position: relative;
+    text-align: center;
+}
+
+.resumeCardBody
+{
+    background-color: lightgreen;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-top: 10px;  
+    padding: 10px;
+}
+ .resumeCardTitle
+{
+    background-color: lightgreen;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-top: 10px;  
+    padding: 10px;
+}
+.resumeCardHeader
+{
+    background-color: lightgreen;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-top: 10px;  
+    padding: 10px;      
+}
+.resumeCardFooter
+{
+    background-color: lightgreen;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-top: 10px;    
+    padding: 10px;      
+}
+
+
+/* This will cover the project portion of the index.html! */  
+.projectBody
+{
+    position: relative;
+    color: black;
+    background-color: gray;
+    font-size: 16px;
+    margin: 20px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left:20px;
+    padding-right:20px;
+    position: relative;
+    text-align: center;
+}
+
+.projectCardBody
+{
+    background-color: lightgrey;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-top: 10px;  
+    padding: 10px;
+}
+ .projectCardTitle
+{
+    background-color: lightgray;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-top: 10px;  
+    padding: 10px;
+}
+.projectCardHeader
+{
+    background-color: lightgray;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-top: 10px;  
+    padding: 10px;      
+}
+.projectCardFooter
+{
+    background-color: lightgray;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-top: 10px;    
+    padding: 10px;      
+}  
+
+.projectBody
+{
+    position: relative;
+    color: black;
+    background-color: gray;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.img-responsive
+{
+  margin: 0 auto;
   
-  .img-responsive
-  {
-	  margin: 0 auto;
-	  
-  }
+}
