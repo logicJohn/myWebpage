@@ -48,7 +48,7 @@
 
 
 <!-- FIRST JUMBOTRON OF WEBPAGE -->
-<div class="jumbotron text-center">
+<div class="jumbotron text-center jumbotronStyle">
   <h1>Johnnie Hernandez</h1> 
   <p>Sacrifice is the key to change.</p> 
   <form>
@@ -111,32 +111,19 @@
         </div>
     </div>
     <div class="col-sm-4"></div>
-
-    <div class="col-sm-8">
+</div>
+<div class="row">
+    
+    <div class="col-sm-4">
         <div class="card aboutMeCardFooter">
             <p><strong>Want to learn more?</strong>
             <p style="align=center"><a href="pages/bio.html" class="btn btn-info" role="button">Click Me</a></p>
         </div>
     </div>
-    <div class="col-sm-4"></div>
-
-
-</div>
-<div class="col-sm-4">
-
-<!--
-<span class="glyphicon glyphicon-signal logo"></span>
--->
-
+    <div class="col-sm-8"></div>
+    
 </div>
 </div>
-<div class="row">
-<div class="col-sm-12">
-</div>
-
-</div>
-</div>
-
 
 
 <!-- Container (projects section) Place 3 project/image links with small descriptions and then one lage description -->
@@ -169,8 +156,10 @@
 	<div class="row">
         <div class="col-sm-4">
             <div class="card resumeCardBody">
-            <h2>IBM</h2>
             <body><img class="img-responsive" src="./image/ibm.png" alt="IBM" width="304" height="236"> </body>
+            
+            <h2>IBM</h2>
+            
             <p>I am currently employed with IBM, here I work with WAS (Websphere Application Servers) as a support technicain.
                 I have had the pleasure of working with the WASADM team where our primary objective is debugging and assisting
                 with errors with WAS installation, node/cluster management, other administrative application functings.
@@ -179,8 +168,10 @@
         </div>
         <div class="col-sm-4 ">
             <div class="card resumeCardBody">
-            <h2>Army</h2>
             <body><img class="img-responsive" src="./image/usarmy.png" alt="US Army" width="152" height="118"> </body>
+            
+            <h2>Army</h2>
+            
             <p> 
                 From 2011 to 2017 I served with the United States Armed Forces in the Army National Guard. 
                 My acting role as a Solider was a Computer and Detection Systems Technician (MOS: 94F), my job
@@ -192,8 +183,10 @@
         </div>
         <div class="col-sm-4 card">
             <div class="card resumeCardBody">
-            <h2>Boy Scouts</h2>
             <body><img class="img-responsive" src="./image/boyscout.png" alt="Boy Scouts of America" width="152" height="118"> </body>
+            
+            <h2>Boy Scouts</h2>
+            
             <p>
                 For two years I worked with the Boy Scouts of America as an Instructor, and Councler.
                 My duties during this time were to instruct young scouts in practical skills to be used
@@ -207,19 +200,20 @@
 	</div>
 	
 	<div class="row">
-	
-	<div class= "col-sm-12 ">
+	 <div class= "col-sm-2"></div>
+	<div class= "col-sm-8">
         <div class="card resumeCardFooter">
             <h2> 
             <a href="pages/resume.html" class="btn btn-info" role="button">Full History</a> 
             </h2>
             
-            <h2> 
+            <h4> 
                 Click here to go ahead and download a copy of my latest CV directly. 
                 <br> <a href="data/cvhernandez.pdf" download> Download CV </a> 
-            </h2>
+            </h4>
         </div>
 	</div>
+     <div class= "col-sm-2"></div>
 	</div>
 	
   </div>
@@ -257,55 +251,70 @@
 	</div>	
 		
 		
-	<div class="row">	
-		<div class="col-sm-2">
-		
-		</div>
-		<div class="col-sm-4 ">
-            <div class="card projectCardBody">
-			<h2>Projects</h2>
-			<body><img class="img-responsive" src="./image/helloWorld.gif" alt="IBM" width="304" height="236"> </body>
-			<p> 
-                Here you can find some various projects that I have worked on in the past or
-				at this point currently at work on.  You can click on the pictures to look at
-				a specifc area or follow the link bellow to view the full set of information.
-                
-			</p>
-            </div>
-		</div>
-		
-		<div class="col-sm-4">
-            <div class="card projectCardBody">
-                <h2>Eagle Scout Award</h2>
-                <body><img class="img-responsive" src="./image/eaglemedal-transparent.gif" alt="Boy Scouts of America" width="76" height="59"> </body>
-                <p>
-                
-                    The Eagle Scout award is the highest accomplishment one can atain, and while it
-                    has been several years since I received the reward it is still to date
-                    one of my proudest accomplisthments.  For me this reward exemplifies my devotion
-                    to the Scout oath and even more so to the dedication that I have for my community.
-                
-                </p>
-            </div>
-		</div>
-        
-		<div class="col-sm-2">
-		</div>
-	</div>
-	
 	<div class="row">
-		<div class= "col-sm-12">
-			<h2> 
-                <a href="pages/projects.html" class="btn btn-info" role="button">More Here</a>
-            </h2>
-            <br>
-		</div>
+        
+            <div class="col-sm-2">
+            
+            </div>
+            <div class="col-sm-4 ">
+                <div class="card projectCardBody">
+                <body><img class="img-responsive" src="./image/helloWorld.gif" alt="Hello World!" width="304" height="236">
+                
+                </body>
+                <br><br><br>
+                <h2 projectCardText>Projects</h2>
+
+                <p> 
+                    Here you can find some various projects that I have worked on in the past or
+                    at this point currently at work on.  You can click on the pictures to look at
+                    a specifc area or follow the link bellow to view the full set of information.
+                    
+                </p>
+                </div>
+            </div>
+            
+            <div class="col-sm-4">
+                <div class="card projectCardBody">
+                    <body><img class="img-responsive" src="./image/eaglemedal-transparent.gif" alt="Boy Scouts of America" width="76" height="59"> </body>
+                    <h2>Eagle Scout Award</h2>
+                    
+                    <p>
+                    
+                        The Eagle Scout award is the highest accomplishment one can atain, and while it
+                        has been several years since I received the reward it is still to date
+                        one of my proudest accomplisthments.  For me this reward exemplifies my devotion
+                        to the Scout oath and even more so to the dedication that I have for my community.
+                    
+                    </p>
+                </div>
+            </div>
+            
+            <div class="col-sm-2">
+            </div>
+        
 	</div>
+    
+    <div class="row">
+    <div class= "col-sm-4"></div>
+	<div class= "col-sm-4 ">
+        <div class="card projectCardFooter">
+           
+            
+            <a href="pages/projects.html" class="btn btn-info" role="button">
+            Click me to learn more</a> 
+   
+            
+        </div>
+	</div>
+    <div class= "col-sm-4"></div>
+	</div>
+    
+	
 </div>
 
 
 <!-- Container (CONTACT SECTION) -->
-<div id="contact" class="container-fluid bg-grey">
+<div id="contact" class="container-fluid bg-grey contactMeBody">
   <h2 class="text-center">CONTACT</h2>
   <div class="row">
     
