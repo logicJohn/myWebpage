@@ -5,7 +5,7 @@
 /* This will cover the navbar of each page of the index.html */
   .navbar  {
       margin-bottom: 0;
-      background-color: #f4511e;
+      background-color: #0A3409;
       z-index: 9999;
       border: 0;
       font-size: 14px !important;
@@ -17,28 +17,38 @@
       
   }
   .navbar li a, .navbar .navbar-brand {
-      color: #fff !important;
+      color: #E8F3E8 !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-      color: #f4511e !important;
-      background-color: #fff !important;
+      color: #0A3409 !important;
+      background-color: #E8F3E8 !important;
   }
   .navbar-default .navbar-toggle {
       border-color: transparent;
-      color: #fff !important;
+      color: #E8F3E8 !important;
   }
   .dropdown-menu{
 	  
-      color: #fff !important;
-	  background-color: #f4511e !important;
+      color: #E8F3E8 !important;
+	  background-color: #0A3409 !important;
 
   }
+  .dropdown-toggle{
+      color: #E8F3E8 !important;
+	  background-color: #0A3409 !important;
+  }
   
+.mainStyle{
+    background-color: #D8F8D8;
+}  
 
 .jumbotronStyle{
+    color: #0A3409;
+    background-color: #92C591;
     max-width: var(--maxWidth);
     margin: auto;
-}  
+} 
+ 
 .curriculumMe
 {
     color: black;
@@ -57,8 +67,8 @@
 
 .aboutMeBody
 {
-    background-color: #1E88E5;
-    color: white;
+    background-color: #92C591;
+    color: #0A3409;
     font-size: 16px;
     margin: 20px;
     padding-top:50px;
@@ -76,8 +86,8 @@
 
 .aboutMeCardTitle
 {
-    color: white; 
-    background-color: blue;
+    color: #0A3409; 
+    background-color: #E8F3E8;
     border: 1px solid grey;
     margin-bottom: 10px;
     margin-top: 10px;  
@@ -87,8 +97,8 @@
 
 .aboutMeCardBody
 {
-    color: white; 
-    background-color: blue;
+    color: #0A3409; 
+    background-color: #E8F3E8;
     border: 1px solid grey;
     margin-bottom: 10px;
     margin-top: 10px;  
@@ -98,8 +108,8 @@
 }
 .aboutMeCardFooter
 {
-    color: white; 
-    background-color: blue;
+    color: #0A3409; 
+    background-color: #E8F3E8;
     border: 1px solid grey;
     margin-bottom: 10px;
     margin-top: 10px;  
@@ -112,7 +122,7 @@
 .resumeBody
 {
     color: black;
-    background-color: green;
+    background-color: #92C591;
     font-size: 16px;
     padding-top:50px;
     padding-bottom:50px;
@@ -128,8 +138,9 @@
 
 .resumeCardBody
 {
-    background-color: lightgreen;
-    border: 1px solid black;
+    color: #0A3409;
+    background-color: #E8F3E8;
+    border: 1px solid grey;
     margin-bottom: 10px;
     margin-top: 10px;  
     padding: 10px;
@@ -140,8 +151,9 @@
 }
  .resumeCardTitle
 {
-    background-color: lightgreen;
-    border: 1px solid black;
+    color: #0A3409;
+    background-color: #E8F3E8;
+    border: 1px solid grey;
     margin-bottom: 10px;
     margin-top: 10px;  
     padding: 10px;
@@ -151,8 +163,9 @@
 }
 .resumeCardHeader
 {
-    background-color: lightgreen;
-    border: 1px solid black;
+    color: #0A3409;
+    background-color: #E8F3E8;
+    border: 1px solid grey;
     margin-bottom: 10px;
     margin-top: 10px;  
     padding: 10px;
@@ -160,8 +173,9 @@
 }
 .resumeCardFooter
 {
-    background-color: lightgreen;
-    border: 1px solid black;
+    color: #0A3409;
+    background-color: #E8F3E8;
+    border: 1px solid grey;
     margin-bottom: 10px;
     margin-top: 10px;    
     padding: 10px;
@@ -173,8 +187,8 @@
 .projectBody
 {
     position: relative;
-    color: black;
-    background-color: gray;
+    color: #0A3409;
+    background-color: #92C591;
     font-size: 16px;
     
     padding-top:50px;
@@ -192,8 +206,9 @@
 
  .projectCardTitle
 {
-    background-color: lightgray;
-    border: 1px solid black;
+    color: #0A3409;
+    background-color: #E8F3E8;
+    border: 1px solid grey;
     margin-bottom: 10px;
     margin-top: 10px;  
     padding: 10px;
@@ -205,8 +220,9 @@
 
 .projectCardHeader
 {
-    background-color: lightgray;
-    border: 1px solid black;
+    color: #0A3409;
+    background-color: #E8F3E8;
+    border: 1px solid grey;
     margin-bottom: 10px;
     margin-top: 10px;  
     padding: 10px;
@@ -216,8 +232,9 @@
 
 .projectCardBody
 {
-    background-color: lightgrey;
-    border: 1px solid black;
+    color: #0A3409;
+    background-color: #E8F3E8;
+    border: 1px solid grey;
     
     
     min-height:500px;
@@ -231,16 +248,12 @@
     
   
 }
-.projectCardText
-{
-    position:absolute;
-    bottom: 0;
-}
 
 .projectCardFooter
 {
-    background-color: lightgray;
-    border: 1px solid black;
+    color: #0A3409;
+    background-color: #E8F3E8;
+    border: 1px solid grey;
     margin-bottom: 10px;
     margin-top: 10px;    
     padding: 10px;  
@@ -251,6 +264,8 @@
     
     
 }  
+
+/* This will cover the other portions of the index.html! */  
 
 .contactMeBody
 {
@@ -265,5 +280,59 @@
 .img-responsive
 {
   margin: 0 auto;
+  
+}
+
+/* This will cover the work experience &skills of resume.html */
+
+.workCardBody
+{
+    background-color: #92C591;
+    color: #0A3409;
+    font-size: 16px;
+    margin: 20px;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left:20px;
+    padding-right:20px;
+    position: relative;
+    text-align: left-align;
+    
+    max-width: var(--maxWidth);
+    margin: auto;
+    margin-top:15px;
+    margin-bottom:15px; 
+}
+.workAccordianCardBody
+{
+    color: #0A3409;
+    background-color: #E8F3E8;
+    border: 1px solid grey;
+
+    min-height:500px;
+    height:auto;
+    
+    max-width: var(--maxWidth);
+    margin:auto;
+    margin-bottom: 10px;
+    margin-top: 10px;  
+    padding: 10px;
+    text-align: left-align; 
+    
+}
+.panel-heading, .panel-title, .panel
+{
+ 
+    
+    color:#E8F3E8 !important;
+	background-color: #0A3409 !important;
+    background-image:none;
+    
+    border-color: grey;
+}
+.accordianBody
+{
+    color: #0A3409;
+    background-color: #E8F3E8;
   
 }
